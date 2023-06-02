@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Kinder Garten",
+    "address": "777 Brockton Avenue, Abington MA 2351",
+    "contactNo": "1234567890"
+  },
+  {
+    "id": 2,
+    "name": "Primary School",
+    "address": "30 Memorial Drive, Avon MA 2322",
+    "contactNo": "1234567890"
+  },
+  {
+    "id": 3,
+    "name": "High School",
+    "address": "250 Hartford Avenue, Bellingham MA 2019",
+    "contactNo": "1234567890"
+  },
+  {
+    "id": 4,
+    "name": "Secondary School",
+    "address": "700 Oak Street, Brockton MA 2301",
+    "contactNo": "1234567890"
+  }
+]

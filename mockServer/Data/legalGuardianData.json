@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Chris",
+    "relation": "Father",
+    "contactNo": "1239578556"
+  },
+  {
+    "id": 2,
+    "name": "Haley",
+    "relation": "Mother",
+    "contactNo": "9856321458"
+  },
+  {
+    "id": 3,
+    "name": "Brandy",
+    "relation": "Sister",
+    "contactNo": "7512364892"
+  },
+  {
+    "id": 4,
+    "name": "Brother",
+    "relation": "Louis",
+    "contactNo": "8563259413"
+  }
+]

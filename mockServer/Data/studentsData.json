@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "student 1",
+    "class": "5th",
+    "schoolId": 1,
+    "legalGuardianId": 1
+  },
+  {
+    "id": 2,
+    "name": "student 2",
+    "class": "7th",
+    "schoolId": 2,
+    "legalGuardianId": 2
+  },
+  {
+    "id": 3,
+    "name": "student 3",
+    "class": "5th",
+    "schoolId": 3,
+    "legalGuardianId": 3
+  },
+  {
+    "id": 4,
+    "name": "student 4",
+    "class": "4th",
+    "schoolId": 4,
+    "legalGuardianId": 4
+  },
+  {
+    "id": 5,
+    "name": "student 5",
+    "class": "7th",
+    "schoolId": 5,
+    "legalGuardianId": 5
+  }
+]
