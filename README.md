@@ -54,6 +54,6 @@ We have optimized the code as per the below user cases  i.e.
 - Same there can be multiple students from same legal Guardian so if the legal guardian data is available then no need to load it again from API.
 
 #### How To Test Logic :
-- First Select Student 3 it will make the 3 API calls for student & school & legal guardian.
-- Now Select Student 5 (This is in same school and legal Guardian) it will make only one API call to get student data only.
-- Unselect student 5 and select again it will not make another API calls to get data if we are selecting and unselecting the students as we already has that student data.
+- First select student 3 it will make the 3 API calls for student & school & legal guardian.
+- Now select student 5 (This is in same school and legal Guardian) it will make only one API call to get student data only.
+- Unselect student 5 and select it again in this case it will not make another API calls to get data for student 5 as we already has data for student 5.
