@@ -3,21 +3,37 @@ import { IStudentsData } from '../../Interfaces';
 
 const columns: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 70 },
-  { field: 'name', headerName: 'First name', width: 130 },
-  { field: 'lastName', headerName: 'Last name', width: 130 },
+  { field: 'name', headerName: 'Student Name', width: 130 },
+  { field: 'class', headerName: 'Class', width: 130 },
   {
-    field: 'age',
-    headerName: 'Age',
-    type: 'number',
-    width: 90,
+    field: 'schoolName',
+    headerName: 'School Name',
+    width: 160,
+    valueGetter: (params: GridValueGetterParams) => params.row.school?.name || '',
   },
   {
-    field: 'fullName',
-    headerName: 'Full name',
-    description: 'This column has a value getter and is not sortable.',
-    sortable: false,
+    field: 'schoolContactNo',
+    headerName: 'School Address',
     width: 160,
-    valueGetter: (params: GridValueGetterParams) => `${params.row.firstName || ''} ${params.row.lastName || ''}`,
+    valueGetter: (params: GridValueGetterParams) => params.row.school?.address || '',
+  },
+  {
+    field: 'legalGuardian',
+    headerName: 'Legal Guardian Name',
+    width: 180,
+    valueGetter: (params: GridValueGetterParams) => params.row.legalGuardian?.name || '',
+  },
+  {
+    field: 'legalGuardianRelation',
+    headerName: 'Legal Guardian Relation',
+    width: 190,
+    valueGetter: (params: GridValueGetterParams) => params.row.legalGuardian?.relation || '',
+  },
+  {
+    field: 'legalGuardianContactNo',
+    headerName: 'Legal Guardian Contact No',
+    width: 190,
+    valueGetter: (params: GridValueGetterParams) => params.row.legalGuardian?.contactNo || '',
   },
 ];
 

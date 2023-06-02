@@ -19,8 +19,8 @@
   },
   {
     "id": 4,
-    "name": "Brother",
-    "relation": "Louis",
+    "name": "Louis",
+    "relation": "Brother",
     "contactNo": "8563259413"
   }
 ]
