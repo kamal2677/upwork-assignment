@@ -47,7 +47,7 @@ Open this port in browser
 Home Page Preview
 ![alt text](https://github.com/kamal2677/upwork-assignment/blob/main/Images/dashboard.PNG?raw=true)
 
-#### Approach : In this approach we have optimized the code as below user cases
+#### Approach : 
 We have optimized the code as per the below user cases  i.e.
 - In current code if we select any student then there was no filter available to fetch only newly selected data it's fixed and now it will not make any extra API calls.
 - There can be multiple students from same school so if school data is already available then no need to load it again
