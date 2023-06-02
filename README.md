@@ -50,10 +50,10 @@ Home Page Preview
 #### Approach : 
 We have optimized the code as per the below user cases  i.e.
 - In current code if we select any student then there was no filter available to fetch only newly selected data it's fixed and now it will not make any extra API calls.
-- There can be multiple students from same school so if school data is already available then no need to load it again
+- There can be multiple students from same school so if school data is already available then no need to load it again.
 - Same there can be multiple students from same legal Guardian so if the legal guardian data is available then no need to load it again from API.
 
 #### How To Test Logic :
-- First Select Student 3 it will make the 3 API calls for student & school & legal guardian
-- Now Select Student 5 (This is in same school and legal Guardian) it will make only one API call to get student data only
-- Unselect student 5 and select again it will not make another API calls to get data if we are selecting and unselecting the students as we already has that student data
+- First Select Student 3 it will make the 3 API calls for student & school & legal guardian.
+- Now Select Student 5 (This is in same school and legal Guardian) it will make only one API call to get student data only.
+- Unselect student 5 and select again it will not make another API calls to get data if we are selecting and unselecting the students as we already has that student data.
